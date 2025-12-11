@@ -47,62 +47,64 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-4">
-              {/* Contact Card */}
-              <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 hover:shadow-md transition-shadow duration-300">
-                <div className="space-y-2">
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">
-                      Harrison Stoneham
-                    </h3>
-                    <p className="text-sm text-gray-500">Principal</p>
-                  </div>
-                  <div className="space-y-2 pt-1">
-                    <a
-                      href="tel:858-215-1880"
-                      className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200 group"
-                      aria-label="Call Harrison Stoneham at 858-215-1880"
-                    >
-                      <span className="text-sm font-medium group-hover:underline">
-                        858-215-1880
-                      </span>
-                    </a>
-                    <a
-                      href="mailto:harrison@sylvanitecapital.com"
-                      className="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200 group break-all"
-                      aria-label="Email Harrison Stoneham"
-                    >
-                      <span className="text-sm font-medium group-hover:underline">
-                        harrison@sylvanitecapital.com
-                      </span>
-                    </a>
+            <div className="flex justify-center">
+              <div className="grid md:grid-cols-2 gap-4">
+                {/* Contact Card */}
+                <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 hover:shadow-md transition-shadow duration-300">
+                  <div className="space-y-2 text-center">
+                    <div>
+                      <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                        Harrison Stoneham
+                      </h3>
+                      <p className="text-sm text-gray-500">Principal</p>
+                    </div>
+                    <div className="space-y-2 pt-1">
+                      <a
+                        href="tel:858-215-1880"
+                        className="flex items-center justify-center text-gray-700 hover:text-blue-600 transition-colors duration-200 group"
+                        aria-label="Call Harrison Stoneham at 858-215-1880"
+                      >
+                        <span className="text-sm font-medium group-hover:underline">
+                          858-215-1880
+                        </span>
+                      </a>
+                      <a
+                        href="mailto:harrison@sylvanitecapital.com"
+                        className="flex items-center justify-center text-gray-700 hover:text-blue-600 transition-colors duration-200 group break-all"
+                        aria-label="Email Harrison Stoneham"
+                      >
+                        <span className="text-sm font-medium group-hover:underline">
+                          harrison@sylvanitecapital.com
+                        </span>
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              {/* Address Card */}
-              <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 hover:shadow-md transition-shadow duration-300">
-                <div className="space-y-2">
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">
-                      Office
-                    </h3>
-                    <p className="text-sm text-gray-500">La Jolla, California</p>
-                  </div>
-                  <div className="pt-1">
-                    <a
-                      href="https://maps.google.com/?q=5785+La+Jolla+Blvd+La+Jolla+CA+92037"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-700 hover:text-blue-600 transition-colors duration-200 group"
-                      aria-label="View address on Google Maps"
-                    >
-                      <p className="text-sm font-medium leading-relaxed group-hover:underline">
-                        5785 La Jolla Blvd
-                        <br />
-                        La Jolla, CA 92037
-                      </p>
-                    </a>
+                {/* Address Card */}
+                <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 hover:shadow-md transition-shadow duration-300">
+                  <div className="space-y-2 text-center">
+                    <div>
+                      <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                        Office
+                      </h3>
+                      <p className="text-sm text-gray-500">La Jolla, California</p>
+                    </div>
+                    <div className="pt-1">
+                      <a
+                        href="https://maps.google.com/?q=5785+La+Jolla+Blvd+La+Jolla+CA+92037"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-700 hover:text-blue-600 transition-colors duration-200 group"
+                        aria-label="View address on Google Maps"
+                      >
+                        <p className="text-sm font-medium leading-relaxed group-hover:underline">
+                          5785 La Jolla Blvd
+                          <br />
+                          La Jolla, CA 92037
+                        </p>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>

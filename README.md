@@ -46,3 +46,4 @@ vercel
 - **TailwindCSS** - Styling
 - **Vercel** - Hosting platform
 
+
